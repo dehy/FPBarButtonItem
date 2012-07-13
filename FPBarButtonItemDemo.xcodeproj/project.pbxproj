@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5163A46615B07988001B27E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5163A46515B07988001B27E2 /* UIKit.framework */; };
+		5163A46815B07988001B27E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5163A46715B07988001B27E2 /* Foundation.framework */; };
+		5163A46A15B07988001B27E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5163A46915B07988001B27E2 /* CoreGraphics.framework */; };
+		5163A47015B07988001B27E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5163A46E15B07988001B27E2 /* InfoPlist.strings */; };
+		5163A47215B07988001B27E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163A47115B07988001B27E2 /* main.m */; };
+		5163A47615B07988001B27E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163A47515B07988001B27E2 /* AppDelegate.m */; };
+		5163A47915B07989001B27E2 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163A47815B07989001B27E2 /* MasterViewController.m */; };
+		5163A47C15B07989001B27E2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163A47B15B07989001B27E2 /* DetailViewController.m */; };
+		5163A47F15B07989001B27E2 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5163A47D15B07989001B27E2 /* MasterViewController.xib */; };
+		5163A48215B07989001B27E2 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5163A48015B07989001B27E2 /* DetailViewController.xib */; };
+		5163A49415B07A7E001B27E2 /* FPBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163A49315B07A7E001B27E2 /* FPBarButtonItem.m */; };
+		5163A49815B08280001B27E2 /* InfosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163A49615B08280001B27E2 /* InfosViewController.m */; };
+		5163A49915B08280001B27E2 /* InfosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5163A49715B08280001B27E2 /* InfosViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5163A46115B07988001B27E2 /* FPBarButtonItemDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPBarButtonItemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5163A46515B07988001B27E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5163A46715B07988001B27E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5163A46915B07988001B27E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5163A46D15B07988001B27E2 /* FPBarButtonItemDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FPBarButtonItemDemo-Info.plist"; sourceTree = "<group>"; };
+		5163A46F15B07988001B27E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5163A47115B07988001B27E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5163A47315B07988001B27E2 /* FPBarButtonItemDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FPBarButtonItemDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5163A47415B07988001B27E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5163A47515B07988001B27E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5163A47715B07989001B27E2 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		5163A47815B07989001B27E2 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MasterViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5163A47A15B07989001B27E2 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5163A47B15B07989001B27E2 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5163A47E15B07989001B27E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		5163A48115B07989001B27E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		5163A49215B07A7E001B27E2 /* FPBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FPBarButtonItem.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5163A49315B07A7E001B27E2 /* FPBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FPBarButtonItem.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5163A49515B08280001B27E2 /* InfosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfosViewController.h; sourceTree = "<group>"; };
+		5163A49615B08280001B27E2 /* InfosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfosViewController.m; sourceTree = "<group>"; };
+		5163A49715B08280001B27E2 /* InfosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfosViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5163A45E15B07988001B27E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5163A46615B07988001B27E2 /* UIKit.framework in Frameworks */,
+				5163A46815B07988001B27E2 /* Foundation.framework in Frameworks */,
+				5163A46A15B07988001B27E2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5163A45615B07988001B27E2 = {
+			isa = PBXGroup;
+			children = (
+				5163A46B15B07988001B27E2 /* FPBarButtonItemDemo */,
+				5163A46415B07988001B27E2 /* Frameworks */,
+				5163A46215B07988001B27E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5163A46215B07988001B27E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5163A46115B07988001B27E2 /* FPBarButtonItemDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5163A46415B07988001B27E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5163A46515B07988001B27E2 /* UIKit.framework */,
+				5163A46715B07988001B27E2 /* Foundation.framework */,
+				5163A46915B07988001B27E2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5163A46B15B07988001B27E2 /* FPBarButtonItemDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5163A49115B07A7E001B27E2 /* FPBarButtonItem */,
+				5163A47415B07988001B27E2 /* AppDelegate.h */,
+				5163A47515B07988001B27E2 /* AppDelegate.m */,
+				5163A47715B07989001B27E2 /* MasterViewController.h */,
+				5163A47815B07989001B27E2 /* MasterViewController.m */,
+				5163A47A15B07989001B27E2 /* DetailViewController.h */,
+				5163A47B15B07989001B27E2 /* DetailViewController.m */,
+				5163A49515B08280001B27E2 /* InfosViewController.h */,
+				5163A49615B08280001B27E2 /* InfosViewController.m */,
+				5163A47D15B07989001B27E2 /* MasterViewController.xib */,
+				5163A48015B07989001B27E2 /* DetailViewController.xib */,
+				5163A49715B08280001B27E2 /* InfosViewController.xib */,
+				5163A46C15B07988001B27E2 /* Supporting Files */,
+			);
+			path = FPBarButtonItemDemo;
+			sourceTree = "<group>";
+		};
+		5163A46C15B07988001B27E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5163A46D15B07988001B27E2 /* FPBarButtonItemDemo-Info.plist */,
+				5163A46E15B07988001B27E2 /* InfoPlist.strings */,
+				5163A47115B07988001B27E2 /* main.m */,
+				5163A47315B07988001B27E2 /* FPBarButtonItemDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5163A49115B07A7E001B27E2 /* FPBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				5163A49215B07A7E001B27E2 /* FPBarButtonItem.h */,
+				5163A49315B07A7E001B27E2 /* FPBarButtonItem.m */,
+			);
+			path = FPBarButtonItem;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5163A46015B07988001B27E2 /* FPBarButtonItemDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5163A48515B07989001B27E2 /* Build configuration list for PBXNativeTarget "FPBarButtonItemDemo" */;
+			buildPhases = (
+				5163A45D15B07988001B27E2 /* Sources */,
+				5163A45E15B07988001B27E2 /* Frameworks */,
+				5163A45F15B07988001B27E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPBarButtonItemDemo;
+			productName = FPBarButtonItemDemo;
+			productReference = 5163A46115B07988001B27E2 /* FPBarButtonItemDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5163A45815B07988001B27E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Flying Pingu";
+			};
+			buildConfigurationList = 5163A45B15B07988001B27E2 /* Build configuration list for PBXProject "FPBarButtonItemDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5163A45615B07988001B27E2;
+			productRefGroup = 5163A46215B07988001B27E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5163A46015B07988001B27E2 /* FPBarButtonItemDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5163A45F15B07988001B27E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5163A47015B07988001B27E2 /* InfoPlist.strings in Resources */,
+				5163A47F15B07989001B27E2 /* MasterViewController.xib in Resources */,
+				5163A48215B07989001B27E2 /* DetailViewController.xib in Resources */,
+				5163A49915B08280001B27E2 /* InfosViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5163A45D15B07988001B27E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5163A47215B07988001B27E2 /* main.m in Sources */,
+				5163A47615B07988001B27E2 /* AppDelegate.m in Sources */,
+				5163A47915B07989001B27E2 /* MasterViewController.m in Sources */,
+				5163A47C15B07989001B27E2 /* DetailViewController.m in Sources */,
+				5163A49415B07A7E001B27E2 /* FPBarButtonItem.m in Sources */,
+				5163A49815B08280001B27E2 /* InfosViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5163A46E15B07988001B27E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5163A46F15B07988001B27E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5163A47D15B07989001B27E2 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5163A47E15B07989001B27E2 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		5163A48015B07989001B27E2 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5163A48115B07989001B27E2 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5163A48315B07989001B27E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5163A48415B07989001B27E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5163A48615B07989001B27E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPBarButtonItemDemo/FPBarButtonItemDemo-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "FPBarButtonItemDemo/FPBarButtonItemDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5163A48715B07989001B27E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPBarButtonItemDemo/FPBarButtonItemDemo-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "FPBarButtonItemDemo/FPBarButtonItemDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5163A45B15B07988001B27E2 /* Build configuration list for PBXProject "FPBarButtonItemDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5163A48315B07989001B27E2 /* Debug */,
+				5163A48415B07989001B27E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5163A48515B07989001B27E2 /* Build configuration list for PBXNativeTarget "FPBarButtonItemDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5163A48615B07989001B27E2 /* Debug */,
+				5163A48715B07989001B27E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5163A45815B07988001B27E2 /* Project object */;
+}
