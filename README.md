@@ -31,7 +31,10 @@ Sample :
 	{
 	   	[super viewDidLoad];
 	
-		FPBarButtonItem *actionButton = [[FPBarButtonItem alloc] initWithTitle:@"Action!" FPstyle:FPBarButtonItemStyleBordered target:self action:@selector(itemAction:)];
+		FPBarButtonItem *infosButton = [[FPBarButtonItem alloc] initWithTitle:@"Infos"
+                                                                  FPstyle:FPBarButtonItemStyleBordered
+                                                                   target:self
+                                                                   action:@selector(openInfosView:)];
 	
 		self.navigationItem.leftBarButtonItem = actionButton;
 	
@@ -42,4 +45,4 @@ Sample :
 Credits
 -------
 
-FPBarButtonItem is brought to you by [Flying Pingu](http://flyingpingu.com). If you have feature suggestions or bug reports, feel free to help out by sending pull requests or by [creating new issues](https://github.com/flyingpingu/FPBarButtonItem/issues/new). If you're using BarButtonItem in your project, attribution would be nice.
+FPBarButtonItem is brought to you by [Flying Pingu](http://flyingpingu.com). If you have feature suggestions or bug reports, feel free to help out by sending pull requests or by [creating new issues](https://github.com/flyingpingu/FPBarButtonItem/issues/new). If you're using FPBarButtonItem in your project, attribution would be nice.

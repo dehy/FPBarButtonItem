@@ -44,7 +44,10 @@
 {
     [super viewDidLoad];
 
-    FPBarButtonItem *infosButton = [[FPBarButtonItem alloc] initWithTitle:@"Infos" FPstyle:FPBarButtonItemStyleBordered target:self action:@selector(openInfosView:)];
+    FPBarButtonItem *infosButton = [[FPBarButtonItem alloc] initWithTitle:@"Infos"
+                                                                  FPstyle:FPBarButtonItemStyleBordered
+                                                                   target:self
+                                                                   action:@selector(openInfosView:)];
     self.navigationItem.leftBarButtonItem = infosButton;
     [infosButton release];
 }

@@ -46,7 +46,10 @@
 - (void)configureView
 {
     
-    FPBarButtonItem *backItem = [[FPBarButtonItem alloc] initWithTitle:@"Home" FPstyle:FPBarButtonItemStyleBack target:self action:@selector(goBack:)];
+    FPBarButtonItem *backItem = [[FPBarButtonItem alloc] initWithTitle:@"Home"
+                                                               FPstyle:FPBarButtonItemStyleBack
+                                                                target:self
+                                                                action:@selector(goBack:)];
     self.navigationItem.leftBarButtonItem = backItem;
     [backItem release];
     

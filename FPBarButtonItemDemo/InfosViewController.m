@@ -33,7 +33,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    FPBarButtonItem *closeButton = [[FPBarButtonItem alloc] initWithTitle:@"Close" FPstyle:FPBarButtonItemStyleDone target:self action:@selector(dismissInfosView:)];
+    FPBarButtonItem *closeButton = [[FPBarButtonItem alloc] initWithTitle:@"Close"
+                                                                  FPstyle:FPBarButtonItemStyleDone
+                                                                   target:self
+                                                                   action:@selector(dismissInfosView:)];
     self.navigationItem.leftBarButtonItem = closeButton;
     [closeButton release];
     
